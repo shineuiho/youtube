@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E2342AA-A090-F6B2-C68B-5440DB45D46B" schemaObject="B5E06219-8D79-A760-6597-F8A1F013666A" name="CUSTOMER">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>C##HR</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:24 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_CODE" id="E1FABEFB-8DC1-28E7-7404-F38A43EB9708">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_CODE</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:26 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="3B52BC1B-B138-5FB3-D6BA-5B3C690D3874">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:26 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FFD040F-E16C-EF77-31FC-FFB90D74ABF8" name="CUSTOMER_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>C##HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:28 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1FABEFB-8DC1-28E7-7404-F38A43EB9708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B37378D-84C0-1CF8-8134-7D0B222791C6" schemaObject="B5E06219-8D79-A760-6597-F8A1F013666A" name="CUSTOMER_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>C##HR</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:27 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1FABEFB-8DC1-28E7-7404-F38A43EB9708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

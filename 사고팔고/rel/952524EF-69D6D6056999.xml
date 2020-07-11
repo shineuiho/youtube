@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="952524EF-4362-7A24-CD77-69D6D6056999" mainViewID="B2350812-1E7F-7B35-50C7-9F8455FE1A87">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:00:32 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>HR</connName>
+<connUser>C##HR</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##HR" directorySegmentName="seg_0" id="999E173D-087D-A5F6-6241-FA2C35BF4FB7">
+<sourceConnName>HR</sourceConnName>
+<sourceObjName>C##HR</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:23 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<schemaObject>B5E06219-8D79-A760-6597-F8A1F013666A</schemaObject>
+</UserOraclev10g>

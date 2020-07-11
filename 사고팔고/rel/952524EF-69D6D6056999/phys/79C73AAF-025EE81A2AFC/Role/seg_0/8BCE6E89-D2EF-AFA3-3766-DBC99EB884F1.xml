@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="C##TAMI" directorySegmentName="seg_0" id="8BCE6E89-D2EF-AFA3-3766-DBC99EB884F1">
+<sourceConnName>HR</sourceConnName>
+<sourceObjName>C##TAMI</sourceObjName>
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:34 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="2F924369-C438-3D11-4A44-09DFBD4F3E5B">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:34 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>AD06BAB0-1E35-5CC8-C66B-26A7C20BEF79</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

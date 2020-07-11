@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GOODS" directorySegmentName="seg_0" id="AD06BAB0-1E35-5CC8-C66B-26A7C20BEF79">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:24 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<schemaObject>B5E06219-8D79-A760-6597-F8A1F013666A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4AEC7169-B162-83C8-F963-3019AA3A025F</segment>
+<tableSpace>0628D15A-A7A6-8913-C7CC-3E5EF2E29E21</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GOODS_NAME" id="0EF295BC-EA86-8C32-9283-ACE374CB562F">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:26 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GOODS_CODE" id="77DA18ED-E00F-C819-9CE2-AB21EEE86C17">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:26 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="GOODS_PK" id="B45FC2C1-6AF4-3D11-7CC3-FE88BE71A4A1">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:27 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<schemaObject>B5E06219-8D79-A760-6597-F8A1F013666A</schemaObject>
+<segment>9363E1F7-CE35-DE43-89CD-780E0530EBFA</segment>
+<tableSpace>0628D15A-A7A6-8913-C7CC-3E5EF2E29E21</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GOODS_PK" id="712AE6B5-99C0-9C11-B689-4A446859C048">
+<createdBy>shineuiho</createdBy>
+<createdTime>2020-07-11 12:06:28 UTC</createdTime>
+<ownerDesignName>사고팔고</ownerDesignName>
+<segment>9363E1F7-CE35-DE43-89CD-780E0530EBFA</segment>
+<tableSpace>0628D15A-A7A6-8913-C7CC-3E5EF2E29E21</tableSpace>
+<existingIndex>B45FC2C1-6AF4-3D11-7CC3-FE88BE71A4A1</existingIndex>
+<indexSegment>9363E1F7-CE35-DE43-89CD-780E0530EBFA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
